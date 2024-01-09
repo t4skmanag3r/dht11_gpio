@@ -2,6 +2,8 @@
 
 Rust library for interfacing with the DHT11 temperature & humidity sensor.
 
+[crates.io](https://crates.io/crates/dht11_gpio)
+
 ## Wiring
 
 Credit goes to this guide on how to properly wire up the sensor  - [circuitbasics.com](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
