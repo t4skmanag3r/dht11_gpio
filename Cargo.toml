@@ -1,0 +1,22 @@
+[package]
+name = "dht11_gpio"
+version = "0.1.0"
+edition = "2021"
+description = "Simple implimentation for interfacing with the dht11 sensor to retrieve temperature and humidity"
+readme = "README.md"
+license = "MIT"
+exclude = ["imgs/"]
+keywords = ["raspberry-pi", "gpio", "dht11", "embedded", "sensor"]
+categories = ["embedded", "hardware-support"]
+repository = "https://github.com/t4skmanag3r/dht11_gpio"
+
+[lib]
+name = "dht11_gpio"
+path = "src/lib.rs"
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"
+
+[dependencies]
+rppal = "0.16.1"
